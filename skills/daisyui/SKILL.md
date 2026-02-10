@@ -10,6 +10,18 @@ daisyUI 5 is a CSS library for Tailwind CSS 4 that provides class names for comm
 - [daisyUI 5 docs](http://daisyui.com)
 - [daisyUI 5 release notes](https://daisyui.com/docs/v5/)
 
+## When to use this skill
+
+Use this skill when:
+
+- Building UI components with daisyUI 5
+- Need reference for daisyUI class names and usage rules
+- Customizing themes with daisyUI config
+- Understanding daisyUI color system
+- Following best practices for daisyUI component styling
+- Refactoring UI with daisyUI components
+- Learning how to use daisyUI 5 effectively in Tailwind CSS 4 projects
+
 ## Installation
 
 [install guide](https://daisyui.com/docs/install/)
@@ -72,7 +84,7 @@ Light theme only:
 
 ```css
 @plugin "daisyui" {
-  themes: light --default;
+	themes: light --default;
 }
 ```
 
@@ -80,12 +92,14 @@ Full config:
 
 ```css
 @plugin "daisyui" {
-  themes: light --default, dark --prefersdark;
-  root: ":root";
-  include: ;
-  exclude: ;
-  prefix: ;
-  logs: true;
+	themes:
+		light --default,
+		dark --prefersdark;
+	root: ":root";
+	include:;
+	exclude:;
+	prefix:;
+	logs: true;
 }
 ```
 
@@ -128,40 +142,40 @@ Full config:
 
 ```css
 @plugin "daisyui/theme" {
-  name: "mytheme";
-  default: true;
-  prefersdark: false;
-  color-scheme: light;
+	name: "mytheme";
+	default: true;
+	prefersdark: false;
+	color-scheme: light;
 
-  --color-base-100: oklch(98% 0.02 240);
-  --color-base-200: oklch(95% 0.03 240);
-  --color-base-300: oklch(92% 0.04 240);
-  --color-base-content: oklch(20% 0.05 240);
-  --color-primary: oklch(55% 0.3 240);
-  --color-primary-content: oklch(98% 0.01 240);
-  --color-secondary: oklch(70% 0.25 200);
-  --color-secondary-content: oklch(98% 0.01 200);
-  --color-accent: oklch(65% 0.25 160);
-  --color-accent-content: oklch(98% 0.01 160);
-  --color-neutral: oklch(50% 0.05 240);
-  --color-neutral-content: oklch(98% 0.01 240);
-  --color-info: oklch(70% 0.2 220);
-  --color-info-content: oklch(98% 0.01 220);
-  --color-success: oklch(65% 0.25 140);
-  --color-success-content: oklch(98% 0.01 140);
-  --color-warning: oklch(80% 0.25 80);
-  --color-warning-content: oklch(20% 0.05 80);
-  --color-error: oklch(65% 0.3 30);
-  --color-error-content: oklch(98% 0.01 30);
+	--color-base-100: oklch(98% 0.02 240);
+	--color-base-200: oklch(95% 0.03 240);
+	--color-base-300: oklch(92% 0.04 240);
+	--color-base-content: oklch(20% 0.05 240);
+	--color-primary: oklch(55% 0.3 240);
+	--color-primary-content: oklch(98% 0.01 240);
+	--color-secondary: oklch(70% 0.25 200);
+	--color-secondary-content: oklch(98% 0.01 200);
+	--color-accent: oklch(65% 0.25 160);
+	--color-accent-content: oklch(98% 0.01 160);
+	--color-neutral: oklch(50% 0.05 240);
+	--color-neutral-content: oklch(98% 0.01 240);
+	--color-info: oklch(70% 0.2 220);
+	--color-info-content: oklch(98% 0.01 220);
+	--color-success: oklch(65% 0.25 140);
+	--color-success-content: oklch(98% 0.01 140);
+	--color-warning: oklch(80% 0.25 80);
+	--color-warning-content: oklch(20% 0.05 80);
+	--color-error: oklch(65% 0.3 30);
+	--color-error-content: oklch(98% 0.01 30);
 
-  --radius-selector: 1rem;
-  --radius-field: 0.25rem;
-  --radius-box: 0.5rem;
-  --size-selector: 0.25rem;
-  --size-field: 0.25rem;
-  --border: 1px;
-  --depth: 1;
-  --noise: 0;
+	--radius-selector: 1rem;
+	--radius-field: 0.25rem;
+	--radius-box: 0.5rem;
+	--size-selector: 0.25rem;
+	--size-field: 0.25rem;
+	--border: 1px;
+	--depth: 1;
+	--noise: 0;
 }
 ```
 
