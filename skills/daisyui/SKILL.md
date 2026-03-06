@@ -1,6 +1,8 @@
 ---
 name: daisyui
 description: daisyUI 5 component library reference for Tailwind CSS 4. Use this when writing UI components with daisyUI class names.
+metadata:
+  source: Based on the official documentation [llms.txt](https://daisyui.com/llms.txt), scripts located at https://github.com/pzyyll/ai-agents
 ---
 
 # daisyUI 5

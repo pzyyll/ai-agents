@@ -1,6 +1,8 @@
 ---
 name: reka-ui
 description: Reka UI component library reference for Vue 3. Use this when building accessible, unstyled UI components with Reka UI primitives.
+metadata:
+  source: Based on the official documentation [llms.txt](https://reka-ui.com/llms.txt), scripts located at https://github.com/pzyyll/ai-agents
 ---
 
 # Reka UI
